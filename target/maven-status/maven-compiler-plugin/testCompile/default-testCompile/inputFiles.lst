@@ -1,0 +1,9 @@
+C:\Users\mail2\Desktop\Unzer\RestAssured\RestAssured-TestNg-Allure\src\test\java\test_m3o\TC3_PositiveScenario_Read_CreatedAccount.java
+C:\Users\mail2\Desktop\Unzer\RestAssured\RestAssured-TestNg-Allure\src\test\java\test_m3o\TC2_NegativeScenario_Create_DuplicateAccount.java
+C:\Users\mail2\Desktop\Unzer\RestAssured\RestAssured-TestNg-Allure\src\test\java\utilpackage\Util.java
+C:\Users\mail2\Desktop\Unzer\RestAssured\RestAssured-TestNg-Allure\src\test\java\test_m3o\TC8_NegativeScenario_UnauthorizedAccess.java
+C:\Users\mail2\Desktop\Unzer\RestAssured\RestAssured-TestNg-Allure\src\test\java\test_m3o\TC4_PositiveScenario_Update_CreatedAccount.java
+C:\Users\mail2\Desktop\Unzer\RestAssured\RestAssured-TestNg-Allure\src\test\java\test_m3o\TC1_PositiveScenario_Create_NewAccount.java
+C:\Users\mail2\Desktop\Unzer\RestAssured\RestAssured-TestNg-Allure\src\test\java\test_m3o\TC5_PositiveScenario_Read_UpdatedAccount.java
+C:\Users\mail2\Desktop\Unzer\RestAssured\RestAssured-TestNg-Allure\src\test\java\test_m3o\TC6_PositiveScenario_Delete_Account.java
+C:\Users\mail2\Desktop\Unzer\RestAssured\RestAssured-TestNg-Allure\src\test\java\test_m3o\TC7_NegativeScenario_Read_DeletedAccount.java

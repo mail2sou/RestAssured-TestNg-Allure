@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Rest Assured Test Suite">
-    <test name="Rest Assured Test">
+<suite name="m3o user api test suite">
+    <test name="m3o user api test">
         <classes>
-            <class name="test_m3o.TestCase1"/>
+            <class name="test_m3o.TC1_PositiveScenario_Create_NewAccount"/>
+            <class name="test_m3o.TC2_NegativeScenario_Create_DuplicateAccount"/>
+            <class name="test_m3o.TC3_PositiveScenario_Read_CreatedAccount"/>
+            <class name="test_m3o.TC4_PositiveScenario_Update_CreatedAccount"/>
+            <class name="test_m3o.TC5_PositiveScenario_Read_UpdatedAccount"/>
+            <class name="test_m3o.TC6_PositiveScenario_Delete_Account"/>
+            <class name="test_m3o.TC7_NegativeScenario_Read_DeletedAccount"/>
+            <class name="test_m3o.TC8_NegativeScenario_UnauthorizedAccess"/>
         </classes>
     </test>
 </suite>
