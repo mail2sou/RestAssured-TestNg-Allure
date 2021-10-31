@@ -2,54 +2,54 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="m3o user api test suite" duration-ms="11027" started-at="2021-10-31T18:14:11 IST" finished-at="2021-10-31T18:14:22 IST">
+  <suite name="m3o user api test suite" duration-ms="10813" started-at="2021-10-31T20:09:55 IST" finished-at="2021-10-31T20:10:06 IST">
     <groups>
     </groups>
-    <test name="m3o user api test" duration-ms="11027" started-at="2021-10-31T18:14:11 IST" finished-at="2021-10-31T18:14:22 IST">
+    <test name="m3o user api test" duration-ms="10813" started-at="2021-10-31T20:09:55 IST" finished-at="2021-10-31T20:10:06 IST">
       <class name="test_m3o.TC4_PositiveScenario_Update_CreatedAccount">
-        <test-method status="PASS" signature="updateCreatedAccount()[pri:0, instance:test_m3o.TC4_PositiveScenario_Update_CreatedAccount@1ce61929]" name="updateCreatedAccount" duration-ms="888" started-at="2021-10-31T18:14:18 IST" finished-at="2021-10-31T18:14:19 IST">
+        <test-method status="PASS" signature="updateCreatedAccount()[pri:0, instance:test_m3o.TC4_PositiveScenario_Update_CreatedAccount@1ddae9b5]" name="updateCreatedAccount" duration-ms="876" started-at="2021-10-31T20:10:02 IST" finished-at="2021-10-31T20:10:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateCreatedAccount -->
       </class> <!-- test_m3o.TC4_PositiveScenario_Update_CreatedAccount -->
       <class name="test_m3o.TC2_NegativeScenario_Create_DuplicateAccount">
-        <test-method status="PASS" signature="createDuplicateAccount()[pri:0, instance:test_m3o.TC2_NegativeScenario_Create_DuplicateAccount@10fde30a]" name="createDuplicateAccount" duration-ms="857" started-at="2021-10-31T18:14:16 IST" finished-at="2021-10-31T18:14:17 IST">
+        <test-method status="PASS" signature="createDuplicateAccount()[pri:0, instance:test_m3o.TC2_NegativeScenario_Create_DuplicateAccount@1d7f7be7]" name="createDuplicateAccount" duration-ms="967" started-at="2021-10-31T20:10:00 IST" finished-at="2021-10-31T20:10:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDuplicateAccount -->
       </class> <!-- test_m3o.TC2_NegativeScenario_Create_DuplicateAccount -->
       <class name="test_m3o.TC8_NegativeScenario_UnauthorizedAccess">
-        <test-method status="PASS" signature="unauthorizedAccess()[pri:0, instance:test_m3o.TC8_NegativeScenario_UnauthorizedAccess@9bd0fa6]" name="unauthorizedAccess" duration-ms="830" started-at="2021-10-31T18:14:21 IST" finished-at="2021-10-31T18:14:22 IST">
+        <test-method status="PASS" signature="unauthorizedAccess()[pri:0, instance:test_m3o.TC8_NegativeScenario_UnauthorizedAccess@2c7d121c]" name="unauthorizedAccess" duration-ms="844" started-at="2021-10-31T20:10:05 IST" finished-at="2021-10-31T20:10:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unauthorizedAccess -->
       </class> <!-- test_m3o.TC8_NegativeScenario_UnauthorizedAccess -->
       <class name="test_m3o.TC6_PositiveScenario_Delete_Account">
-        <test-method status="PASS" signature="deleteAccount()[pri:0, instance:test_m3o.TC6_PositiveScenario_Delete_Account@4bf3798b]" name="deleteAccount" duration-ms="893" started-at="2021-10-31T18:14:20 IST" finished-at="2021-10-31T18:14:21 IST">
+        <test-method status="PASS" signature="deleteAccount()[pri:0, instance:test_m3o.TC6_PositiveScenario_Delete_Account@24bdb479]" name="deleteAccount" duration-ms="862" started-at="2021-10-31T20:10:03 IST" finished-at="2021-10-31T20:10:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAccount -->
       </class> <!-- test_m3o.TC6_PositiveScenario_Delete_Account -->
       <class name="test_m3o.TC3_PositiveScenario_Read_CreatedAccount">
-        <test-method status="PASS" signature="readCreatedAccount()[pri:0, instance:test_m3o.TC3_PositiveScenario_Read_CreatedAccount@f27ea3]" name="readCreatedAccount" duration-ms="937" started-at="2021-10-31T18:14:17 IST" finished-at="2021-10-31T18:14:18 IST">
+        <test-method status="PASS" signature="readCreatedAccount()[pri:0, instance:test_m3o.TC3_PositiveScenario_Read_CreatedAccount@42f3156d]" name="readCreatedAccount" duration-ms="908" started-at="2021-10-31T20:10:01 IST" finished-at="2021-10-31T20:10:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readCreatedAccount -->
       </class> <!-- test_m3o.TC3_PositiveScenario_Read_CreatedAccount -->
-      <class name="test_m3o.TC5_PositiveScenario_Read_UpdatedAccount">
-        <test-method status="PASS" signature="readUpdatedAccount()[pri:0, instance:test_m3o.TC5_PositiveScenario_Read_UpdatedAccount@346939bf]" name="readUpdatedAccount" duration-ms="875" started-at="2021-10-31T18:14:19 IST" finished-at="2021-10-31T18:14:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- readUpdatedAccount -->
-      </class> <!-- test_m3o.TC5_PositiveScenario_Read_UpdatedAccount -->
       <class name="test_m3o.TC1_PositiveScenario_Create_NewAccount">
-        <test-method status="PASS" signature="createNewAccount()[pri:0, instance:test_m3o.TC1_PositiveScenario_Create_NewAccount@1d7f7be7]" name="createNewAccount" duration-ms="4637" started-at="2021-10-31T18:14:11 IST" finished-at="2021-10-31T18:14:16 IST">
+        <test-method status="PASS" signature="createNewAccount()[pri:0, instance:test_m3o.TC1_PositiveScenario_Create_NewAccount@7adf16aa]" name="createNewAccount" duration-ms="4395" started-at="2021-10-31T20:09:55 IST" finished-at="2021-10-31T20:10:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewAccount -->
       </class> <!-- test_m3o.TC1_PositiveScenario_Create_NewAccount -->
+      <class name="test_m3o.TC5_PositiveScenario_Read_UpdatedAccount">
+        <test-method status="PASS" signature="readUpdatedAccount()[pri:0, instance:test_m3o.TC5_PositiveScenario_Read_UpdatedAccount@427b5f92]" name="readUpdatedAccount" duration-ms="871" started-at="2021-10-31T20:10:02 IST" finished-at="2021-10-31T20:10:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readUpdatedAccount -->
+      </class> <!-- test_m3o.TC5_PositiveScenario_Read_UpdatedAccount -->
       <class name="test_m3o.TC7_NegativeScenario_Read_DeletedAccount">
-        <test-method status="PASS" signature="readDeletedAccount()[pri:0, instance:test_m3o.TC7_NegativeScenario_Read_DeletedAccount@58670130]" name="readDeletedAccount" duration-ms="908" started-at="2021-10-31T18:14:21 IST" finished-at="2021-10-31T18:14:21 IST">
+        <test-method status="PASS" signature="readDeletedAccount()[pri:0, instance:test_m3o.TC7_NegativeScenario_Read_DeletedAccount@7e3f95fe]" name="readDeletedAccount" duration-ms="904" started-at="2021-10-31T20:10:04 IST" finished-at="2021-10-31T20:10:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readDeletedAccount -->

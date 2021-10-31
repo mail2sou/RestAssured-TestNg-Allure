@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.516" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.176" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_291\jre\bin"/>
@@ -64,12 +64,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="createNewAccount" classname="test_m3o.TC1_PositiveScenario_Create_NewAccount" time="4.637"/>
-  <testcase name="createDuplicateAccount" classname="test_m3o.TC2_NegativeScenario_Create_DuplicateAccount" time="0.888"/>
-  <testcase name="readCreatedAccount" classname="test_m3o.TC3_PositiveScenario_Read_CreatedAccount" time="0.906"/>
-  <testcase name="updateCreatedAccount" classname="test_m3o.TC4_PositiveScenario_Update_CreatedAccount" time="0.888"/>
-  <testcase name="readUpdatedAccount" classname="test_m3o.TC5_PositiveScenario_Read_UpdatedAccount" time="0.859"/>
-  <testcase name="deleteAccount" classname="test_m3o.TC6_PositiveScenario_Delete_Account" time="0.924"/>
-  <testcase name="readDeletedAccount" classname="test_m3o.TC7_NegativeScenario_Read_DeletedAccount" time="0.908"/>
-  <testcase name="unauthorizedAccess" classname="test_m3o.TC8_NegativeScenario_UnauthorizedAccess" time="0.841"/>
+  <testcase name="createNewAccount" classname="test_m3o.TC1_PositiveScenario_Create_NewAccount" time="4.395"/>
+  <testcase name="createDuplicateAccount" classname="test_m3o.TC2_NegativeScenario_Create_DuplicateAccount" time="0.982"/>
+  <testcase name="readCreatedAccount" classname="test_m3o.TC3_PositiveScenario_Read_CreatedAccount" time="0.908"/>
+  <testcase name="updateCreatedAccount" classname="test_m3o.TC4_PositiveScenario_Update_CreatedAccount" time="0.892"/>
+  <testcase name="readUpdatedAccount" classname="test_m3o.TC5_PositiveScenario_Read_UpdatedAccount" time="0.855"/>
+  <testcase name="deleteAccount" classname="test_m3o.TC6_PositiveScenario_Delete_Account" time="0.893"/>
+  <testcase name="readDeletedAccount" classname="test_m3o.TC7_NegativeScenario_Read_DeletedAccount" time="0.873"/>
+  <testcase name="unauthorizedAccess" classname="test_m3o.TC8_NegativeScenario_UnauthorizedAccess" time="0.86"/>
 </testsuite>
