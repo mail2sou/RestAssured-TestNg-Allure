@@ -13,6 +13,10 @@
 3. Build tool: Maven
 4. IDE used to develop the framework: IntelliJ IDEA Community Edition 2021.2.2
 
+**API Authorization**
+
+1. Currently, a sample bearer token is provided in the <I><B>config/config.properties</I></B> file. If required, you may update your own token before execution
+
 **Steps to run this project from the terminal**
 
 1. Clone this project from GitHub: https://github.com/mail2sou/RestAssured-TestNg-Allure.git
