@@ -36,3 +36,8 @@
 
 1. While resolving the maven dependencies of the project, disconnect any VPN or go behind the firewall as it may not let the <I><B>pom.xml</I></B> to connect to the Maven repo and download the dependencies which are required to run this project
 2. If allure does not work due to running scripts disabled error, then run this through terminal <I><B>Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted</I></B> to fix the issue and generate the report again
+
+**Things that I would have improved, if I had more time**
+
+1. Would have added detailed test scenarios to validate each API in detail with more edge cases
+2. Would have increased the scope of testing by validating other APIs like Login, Logout etc.
