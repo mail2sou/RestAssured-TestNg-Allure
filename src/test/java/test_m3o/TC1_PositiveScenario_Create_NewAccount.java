@@ -21,40 +21,45 @@ public class TC1_PositiveScenario_Create_NewAccount {
 
     @Test
     public void createNewAccount() {
-        String uri = Util.baseUrl + "/Create";
-        String timeStamp = Util.test();
-        System.out.println("timeStamp generated is: " + timeStamp);
-        Map<String, Object> payload = new HashMap<>();
-        String generatedEmail = "tomcat_" + timeStamp + "@gmail.com";
-        String generatedUName = "tomcat-" + timeStamp;
-        payload.put("email", generatedEmail);
-        payload.put("password", "mySecretPass123");
-        payload.put("username", generatedUName);
-        JSONObject request = new JSONObject(payload);
-        Response response =
-                given().
-                        header("Content-Type", "application/json").
-                        header("Authorization", Util.bearerToken).
-                        contentType(ContentType.JSON).
-                        accept(ContentType.JSON).
-                        body(request.toJSONString()).
-                when().
-                        post(uri).
-                then().
-                        assertThat().
-                        statusCode(200).
-                        log().all().
-                        extract().response();
+        try {
+            String uri = Util.baseUrl + "/Create";
+            String timeStamp = Util.time();
+            System.out.println("timeStamp generated is: " + timeStamp);
+            Util.readJson("data");
+            Map<String, Object> payload = new HashMap<>();
+            String generatedEmail = Util.jsonObject.get("name") + timeStamp + Util.jsonObject.get("domain");
+            String generatedUName = Util.jsonObject.get("name") + timeStamp;
+            payload.put("email", generatedEmail);
+            payload.put("password", Util.jsonObject.get("password"));
+            payload.put("username", generatedUName);
+            JSONObject request = new JSONObject(payload);
+            Response response =
+                    given().
+                            header("Content-Type", "application/json").
+                            header("Authorization", Util.bearerToken).
+                            contentType(ContentType.JSON).
+                            accept(ContentType.JSON).
+                            body(request.toJSONString()).
+                    when().
+                            post(uri).
+                    then().
+                            assertThat().
+                            statusCode(200).
+                            log().all().
+                            extract().response();
 
-        id = response.jsonPath().getString("account.id");
-        userName = response.jsonPath().getString("account.username");
-        email = response.jsonPath().getString("account.email");
-        created = response.jsonPath().getString("account.created");
-        updated = response.jsonPath().getString("account.updated");
-        assertNotNull(id);
-        assertNotNull(created);
-        assertNotNull(updated);
-        assertEquals(email, generatedEmail);
-        assertEquals(userName, generatedUName);
+            id = response.jsonPath().getString("account.id");
+            userName = response.jsonPath().getString("account.username");
+            email = response.jsonPath().getString("account.email");
+            created = response.jsonPath().getString("account.created");
+            updated = response.jsonPath().getString("account.updated");
+            assertNotNull(id);
+            assertNotNull(created);
+            assertNotNull(updated);
+            assertEquals(email, generatedEmail);
+            assertEquals(userName, generatedUName);
+        } catch (Exception e) {
+            System.out.println("Test case failed");
+        }
     }
 }
